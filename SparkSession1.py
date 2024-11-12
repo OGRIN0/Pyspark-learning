@@ -1,3 +1,4 @@
+#implementating SparkSession
 import os
 os.environ['SPARK_HOME'] = "/Users/amarnath/Documents/amarss"
 os.environ['PYSPARK_DRIVER_PYTHON'] = 'jupyter'
