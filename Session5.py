@@ -8,7 +8,7 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import desc
 
 
-park = SparkSession.builder.appName("DemoFrame").getOrCreate()
+spark = SparkSession.builder.appName("DemoFrame").getOrCreate()
 
 rdd = spark.sparkContext.textFile("./data/data.txt")
 
